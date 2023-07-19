@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head><title>PacMan</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+
+		@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+	}		
+		body{
+			background-color: rgb(105, 105, 180);
+		}
+		#containter {
+			display: grid;
+			grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+			grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+			grid-gap: 0px;
+			border: 1px solid black;
+			background-color: rgb(105, 105, 180);
+			margin: 0 auto;
+			box-shadow: 10px 10px 10px black;
+			
+			width: 1000px;
+			height: 1000px;
+			margin: 0 auto;
+		}
+		#container div{
+			height: 100px;
+			width: 100px;
+			border: 1px solid black;
+		}
+		#title {
+			text-align: center;
+			font-family: 'Press Start 2P', cursive;
+			font-size: 50px;
+			color: yellow;
+			text-shadow: 2px 2px 2px black;
+			background-color: black;
+			border: 1px solid black;
+			border-top-left-radius: 5px;
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 2px 2px 2px black;
+			width: 100%;
+			height: 100px;
+			margin: 0 auto;
+		}
+		.scoreBoard {
+			text-align: center;
+			font-family: 'Press Start 2P', cursive;
+			font-size: 20px;
+			color: yellow;
+			text-shadow: 2px 2px 2px black;
+			background-color: black;
+			border: 1px solid black;
+			border-bottom:5px;
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 2px 2px 2px black;
+			width: 100%;
+			height: 100px;
+			margin: 0 auto;
+		}
+		#superdot {
+			height: 100px;
+			width: 100px;
+			border: 1px solid black;
+			background-color: black;
+			border-radius: 50%;
+			margin: 0 auto;
+		}
+		#dot {
+			height: 100px;
+			width: 100px;
+			border: 1px solid black;
+			background-color: black;
+			border-radius: 50%;
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px black;
+			animation: dot 1s infinite;
+			animation-direction: alternate;
+		}
+		#wall {
+			height: 100px;
+			width: 100px;
+			border: 5px solid rgb(145, 65, 65);
+			background-color: rgb(8, 92, 9);
+			border-radius: 50%;
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px black;
+			
+		}
+		#startButton{
+			text-align: center;
+			font-family: 'Press Start 2P', cursive;
+			font-size: 20px;
+			color: rgb(0, 0, 0);
+			text-shadow: 2px 2px 2px black;
+			background-color: black;
+			border: 1px solid black;
+			border-radius: 5px;
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 2px 2px 2px black;
+			width: 100%;
+			height: 100px;
+			margin: 0 auto;
+		}
+		.grid {
+			display: grid;
+			border: 1px solid black;
+			background-color: rgb(105, 105, 180);
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px black;
+			width: 1000px;	
+		}
+		footer{
+			position: fixed; 
+		}
+	   *{
+		   box-sizing: border-box;
+	   }
+	</style>
+	</head>
+
+	<body>
+		<header>
+		<h1 id="title">PacMan</h1>
+		<div class="scoreBoard">
+			<span class="score">Score : 0</span>
+			<span class="lives">Lives : 5</span>
+		</div>
+		</header>
+
+		<div class="grid"></div>
+		<button class="startButton">Start Game</button>
+
+	<footer>
+	<div class="boxStart">
+		<div class ="ghost">
+		<div class="eyes eyeleft"></div>
+		<div class="eyes eyeright"></div>
+	</div>
+	</div>
+
+	<div class="boxStart">
+		<div class="superdot"></div>
+		</div>
+	</div>
+
+	<div class="boxStart">
+		<div class="dot"></div>
+		</div>
+	</div>
+
+	<div class="boxStart">
+		<div class="wall"></div>
+		</div>
+	</div>
+
+	<div class="boxStart">
+		<div class ="pacman">
+		<div class ="eye"></div>
+		<div class ="mouth"></div>
+		</div>
+	</div>
+</footer>
+	<script src="app.js"></script>
+	
+	
+	
+	</body>
+
+</html>

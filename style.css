@@ -1,0 +1,214 @@
+@font-face{
+    src: url(fonts/Belanosima-Regular.ttf);
+    font-family: Belanosima-Regular;
+}
+
+.projectsnavbar {
+    background-color: rgb(1, 12, 8);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.projectsnavbar ul{
+    list-style-type: none;
+    background-color:rgb(15, 66, 49);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.projectsnavbar a{
+    color: 84, 153, 144, 0.4;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+}
+.projectsnavbar a:hover{
+    background-color: rgba(84, 153, 144, 0.4);
+}
+.projectsnavbar li{
+    float: center;
+}
+
+body 	{ font-family: Belanosima-Regular; background-color: rgb(167,215,197); color: rgb(92,141,137); }
+h1	{ text-align: center;  font-size: 24px; }
+ul 	{ background-color: rgb(244,249,244); border: 1px solid rgb(84,153,144);
+    border-radius: 10px;}
+.content { font-weight:bold;
+    background-color: rgb(244,249,244);  rgb(84,153,144);
+    
+    
+
+
+  }
+#title { background-color: rgb(244,249,244); 
+    text-shadow:cornflowerblue rgba(210, 187, 187, 0.4); font-style: Comic-Sans;
+    font-size: 24px; font-weight: bold; text-align: center; border-radius: 10px;
+    border: 1px solid rgb(84,153,144); padding: 10px; margin: 10px;
+    box-shadow: 5px 5px 5px rgba(84, 153, 144, 0.4);}
+
+#about{
+    background-color: rgb(244,249,244);
+    border: 1px solid rgb(84,153,144);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px rgba(84, 153, 144, 0.4);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Belanosima-Regular;
+    font-weight: bold;
+    color: rgb(84,153,144);
+    text-shadow: 1px 1px 0 rgba(84, 153, 144, 0.4);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: Belanosima-Regular;
+    font-weight: bold;
+}
+
+
+ol li {
+    background-color: rgb(244,249,244);
+    width:525px;
+    font-family: Belanosima-Regular;
+    border: 1px solid;
+    counter-reset: li; /* Initiate a counter */
+    list-style: decimal; /* Keep using default numbering for IE6/7 */
+    padding: 2.5px;
+    margin-bottom: .25em;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0 rgba(84, 153, 144, 0.4);
+    }
+iframe { 
+        display: block; 
+        width: 100%; 
+        border: none; 
+        overflow-y: auto; 
+        overflow-x: hidden; 
+    } 
+
+.projectlist li{
+    font-size: smaller;
+}
+
+ol ol {
+margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}   
+
+p {
+    margin-left: 25px;
+}
+
+#capstone{
+    float: left;  
+}
+
+a:hover{
+    background-color: rgb(84, 153, 144, 0.4);
+    font-size: .99em;
+}
+
+a:active{
+    color: rgb(5, 60, 50);
+}
+
+a{color: rgb(84,153,144) }
+
+li:nth-child(){
+    background-color: rgb(254, 254, 254);
+}
+
+
+#contentlist{
+    text-align: left;
+    font-size: 1.5em;
+    font-family: Belanosima-Regular;
+    font-weight: bold;
+    color: rgb(84,153,144);
+    text-shadow: 1px 1px 0 rgba(84, 153, 144, 0.4);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(15, 66, 49);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: 84, 153, 144, 0.4;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+}
+
+.navbar{
+    background-color: rgb(15, 66, 49);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    list-style: none;    
+}
+.navbar a:hover{
+    background-color: rgba(84, 153, 144, 0.4);
+}
+.navbar li{
+    float: left;
+
+}
+
+.icons{
+    text-align: left;
+    font-size: 1em;
+    font-family: Belanosima-Regular;
+    font-weight: bold;
+    color: rgb(84,153,144);
+    text-shadow: 1px 1px 0 rgba(84, 153, 144, 0.4);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: left;
+}
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(84,153,144);
+    text-shadow: 1px 1px 0 rgba(84, 153, 144, 0.4);
+    
+}
+
+
+
+.fa-brands.fa-github.fa-3x{
+    color:rgb(17, 17, 54)
+}
+
+.fa-solid.fa-gamepad.fa-3x{
+    color:rgb(17, 17, 54)
+}
+
+.fa-regular.fa-file.fa-3x{
+    color:rgb(17, 17, 54)
+}
+
+.androidprojectstyles .dt{
+    font-size: .01em;
+    font-style: italic;
+}
+
+
