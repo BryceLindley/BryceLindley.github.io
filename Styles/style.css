@@ -15,7 +15,7 @@
 
 .projectsnavbar ul{
     list-style-type: none;
-    background-color:rgb(15, 66, 49);
+    background-color:#A8DBFA;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -28,13 +28,13 @@
     text-align:center;
 }
 .projectsnavbar a:hover{
-    background-color: rgba(84, 153, 144, 0.4);
+    background-color: #635EEF;;
 }
 .projectsnavbar li{
     float: center;
 }
 
-body 	{ font-family: Belanosima-Regular; background-color: rgb(167,215,197); color: rgb(92,141,137); }
+body 	{ font-family: Belanosima-Regular; background-color: #D3F5CF; color: #000000; }
 h1	{ text-align: center;  font-size: 24px; }
 ul 	{ background-color: rgb(244,249,244); border: 1px solid rgb(84,153,144);
     border-radius: 10px;}
@@ -51,32 +51,11 @@ ul 	{ background-color: rgb(244,249,244); border: 1px solid rgb(84,153,144);
     border: 1px solid rgb(84,153,144); padding: 10px; margin: 10px;
     box-shadow: 5px 5px 5px rgba(84, 153, 144, 0.4);}
 
-#about{
-    background-color: rgb(244,249,244);
-    border: 1px solid rgb(84,153,144);
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px;
-    box-shadow: 5px 5px 5px rgba(84, 153, 144, 0.4);
-    text-align: center;
-    font-size: 1.5em;
-    font-family: Belanosima-Regular;
-    font-weight: bold;
-    color: rgb(84,153,144);
-    text-shadow: 1px 1px 0 rgba(84, 153, 144, 0.4);
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    text-align: left;
-    font-size: 1.5em;
-    font-family: Belanosima-Regular;
-    font-weight: bold;
-}
+
 
 
 ol li {
-    background-color: rgb(244,249,244);
+    background-color: #D3F5CF;
     width:525px;
     font-family: Belanosima-Regular;
     border: 1px solid;
@@ -112,7 +91,7 @@ p {
 }
 
 a:hover{
-    background-color: rgb(84, 153, 144, 0.4);
+    background-color: #D3F5CF;
     font-size: .99em;
 }
 
@@ -140,7 +119,7 @@ li:nth-child(){
 
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(15, 66, 49);
+    background-color: #D3F5CF;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -154,7 +133,7 @@ li:nth-child(){
 }
 
 .navbar{
-    background-color: rgb(15, 66, 49);
+    background-color: #D3F5CF;
     padding: 0px;
     margin: 0px;
     overflow: hidden;

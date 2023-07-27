@@ -16,7 +16,7 @@ h1{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(15, 66, 49);
+    background-color: #D3F5CF;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -50,7 +50,7 @@ article{
 header{
     background-color: aliceblue;
     text-align: center;
-    pad: 25px;
+    
 }
 footer{
     background-color: aliceblue;
